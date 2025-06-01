@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KDD 2025 AI Reasoning</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 leading-relaxed font-[Montserrat]">
+    <!-- Responsive Navbar -->
+    <nav class="bg-gray-50 border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-[#007BFF] font-semibold text-lg">KDD 2025 AI Reasoning</span>
+                </div>
+                <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+                    <a href="#" class="text-[#007BFF] font-semibold">Home</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button type="button" class="text-gray-500 hover:text-gray-800 focus:outline-none"
+                        onclick="toggleMenu()">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 space-y-2 text-sm font-medium text-gray-700">
+            <a href="#" class="block text-blue-600 font-semibold">Home</a>
+            <!-- <a href="#" class="block">Call for Papers</a>
+            <a href="#" class="block">Topics</a>
+            <a href="#" class="block">Speakers</a>
+            <a href="#" class="block">Organizers</a> -->
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="text-gray-800">
+        <div class="max-w-5xl mx-auto px-6 my-16 pt-2">
+            <h1 class="text-3xl font-semibold">
+                KDD Day on <span class="font-bold text-black">AI Reasoning</span>
+            </h1>
+            <p class="text-lg text-gray-600 mt-2">
+                Special day at Conference on Knowledge Discovery and Data Mining (KDD)
+                2025
+            </p>
+            <p class="mt-2 font-medium text-gray-700">
+                <span class="text-black">KDD 2025 | Toronto, ON, Canada</span><br />
+                <span>Thursday, August 7, 2025</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Overview -->
+    <div class="max-w-5xl mx-auto px-6 mt-10">
+        <h2 class="text-2xl font-semibold text-[#007BFF] mb-4">Overview</h2>
+        <p class="mb-4">
+            Reasoning models break down complex problems into smaller problems that
+            can be solved systematically. Unlike the first generation of LLMs which
+            might provide direct answers, reasoning models follow a more structured,
+            and systematic progress to solve this.
+        </p>
+        <p class="mb-4">
+            Examples of reasoning models include OpenAI’s o1 family of models (e.g
+            o1–mini, o3–mini), DeepSeek, Gemini, Phi4–Reasoning, and more.
+        </p>
+        <p class="mb-4">
+            This special KDD day on AI reasoning invites researchers, practitioners
+            from the industry, and students to share state-of-art techniques on the
+            use of AI reasoning in math, coding, how to reason with common sense,
+            approaches to automated reasoning, and using LLMs reasoning.
+        </p>
+        <p>
+            Through a set of keynotes, invited talks, panel discussion and lightning
+            talks, the KDD Day on AI Reasoning will be an interactive and exciting
+            forum for discussions on this important topic of AI Reasoning, and how
+            it is emerging as a promising approach to solving complex problems in
+            many fields and industries with reasoning model.
+        </p>
+    </div>
+
+    <section class="text-gray-800 max-w-5xl mx-auto px-6">
+        <div class="max-w-6xl mx-auto py-12">
+            <h1 class="text-2xl font-semibold text-center mb-10">
+                Program <span class="text-[#007BFF]">Outline</span>
+            </h1>
+            <p class="mb-4">Here's the program outline with details on each of the events happening.</p>
+            <!-- bullet list -->
+            <ul class="list-disc list-inside">
+                <li>Keynote and Invited talks</li>
+                <li>Panel on “Where we are heading w.r.t to AI Reasoning”</li>
+                <li>Lightning paper presentations</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="text-gray-800 max-w-5xl mx-auto px-6 text-center">
+        <div class="max-w-6xl mx-auto py-12">
+            <h1 class="text-2xl font-semibold text-center mb-10">
+                Keynote Speakers
+            </h1>
+            <p>Here are the speakers for this years AI Reasoning KDD 2025.</p>
+            <p>Invited speakers will be announced soon.</p>
+        </div>
+    </section>
+
+    <section class="text-gray-800 max-w-5xl mx-auto px-6 text-center">
+        <div class="max-w-6xl mx-auto py-12">
+            <h1 class="text-2xl font-semibold text-center mb-10">
+                Panelists
+            </h1>
+            <p>Here are the panelists for this years AI Reasoning KDD 2025.</p>
+            <p>Invited panelists will be announced soon.</p>
+        </div>
+    </section>
+
+    <section class="text-gray-800 max-w-5xl mx-auto px-6">
+        <div class="max-w-6xl mx-auto py-12">
+            <h1 class="text-2xl font-semibold text-center mb-10">
+                Meet the <span class="text-[#007BFF]">Organizers</span>
+            </h1>
+
+            <!-- Organizers grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Organizer Card -->
+                <div class="flex items-center bg-white rounded-xl shadow">
+                    <img src="assets/ruzica_piskac.png" alt="Ruzica Piskac"
+                        class="object-cover rounded-l-xl max-h-[150px]" />
+                    <div class="p-4">
+                        <p class="font-semibold">Piskac, Ruzica</p>
+                        <p class="text-sm">Professor, Yale University</p>
+                        <a href="https://cs.yale.edu/homes/piskac/"
+                            class="text-[#007BFF] text-sm">cs.yale.edu/homes/piskac/</a>
+                    </div>
+                </div>
+
+                <div class="flex items-center bg-white rounded-xl shadow">
+                    <img src="assets/xiangyu_zhang.png" alt="Ruzica Piskac"
+                        class="object-cover rounded-l-xl max-h-[150px]" />
+                    <div class="p-4">
+                        <p class="font-semibold">Xiangyu Zhang</p>
+                        <p class="text-sm">Professor, Purdue University</p>
+                        <a href="https://cs.purdue.edu/homes/xyzhang/"
+                            class="text-[#007BFF] text-sm">cs.purdue.edu/homes/xyzhang/</a>
+                    </div>
+                </div>
+
+                <div class="flex items-center bg-white rounded-xl shadow">
+                    <img src="assets/jun_luke_huan.png" alt="Ruzica Piskac"
+                        class="object-cover rounded-l-xl max-h-[150px]" />
+                    <div class="p-4">
+                        <p class="font-semibold">Jun (Luke) Huan</p>
+                        <p class="text-sm">Principal Scientist, AWS AI</p>
+                        <a href="https://linkedin.com" class="text-[#007BFF] text-sm">linkedin.com</a>
+                    </div>
+                </div>
+
+                <div class="flex items-center bg-white rounded-xl shadow">
+                    <img src="assets/ye_xing.png" alt="Ruzica Piskac" class="object-cover rounded-l-xl max-h-[150px]" />
+                    <div class="p-4">
+                        <p class="font-semibold">Ye Xing</p>
+                        <p class="text-sm">Principal Machine Learning Manager, Microsoft</p>
+                        <a href="https://linkedin.com" class="text-[#007BFF] text-sm">linkedin.com</a>
+                    </div>
+                </div>
+
+                <div class="flex items-center bg-white rounded-xl shadow">
+                    <img src="assets/wee_hyong.png" alt="Ruzica Piskac"
+                        class="object-cover rounded-l-xl max-h-[150px]" />
+                    <div class="p-4">
+                        <p class="font-semibold">Wee Hyong Tok</p>
+                        <p class="text-sm">Partner Director of Products and AI, Microsoft</p>
+                        <a href="https://linkedin.com" class="text-[#007BFF] text-sm">linkedin.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-800 max-w-5xl mx-auto px-6 py-12">
+        <!-- Questions Section -->
+        <div>
+            <h2 class="text-2xl font-semibold text-[#007BFF] mb-2">Questions?</h2>
+            <p class="mb-1">
+                Find out more about KDD Special Days –
+                <a href="https://kdd2025.kdd.org/special–days/"
+                    class="text-[#007BFF] underline">https://kdd2025.kdd.org/special–days/</a>
+            </p>
+            <p class="mb-1">
+                Contact us at
+                <a href="mailto:AIReasoning2025@kdd.org" class="text-[#007BFF] underline">AIReasoning2025@kdd.org</a>
+            </p>
+            <p>
+                Thank you to
+                <a href="#" class="text-[#007BFF] underline">SciForDL'24</a>
+            </p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-200 text-center py-4 text-gray-500 py-[50px]">
+        <p>© 2025 KDD. All rights reserved.</p>
+        <p>
+          Designed and Developed by
+          <a href="https://github.com/jolenechong" ,="" target="_blank" class="underline">Jolene Chong</a>
+        </p>
+    </footer>
+</body>
+</html>
