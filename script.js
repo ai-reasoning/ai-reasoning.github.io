@@ -17,3 +17,14 @@ window.addEventListener("scroll", () => {
       navbar.classList.remove("sticky", "top-0", "z-50", "shadow-md");
     }
 });
+
+function toggleAbstract(button, id) {
+  const abstract = document.getElementById(id);
+  if (abstract.classList.contains('line-clamp-5')) {
+    abstract.classList.remove('line-clamp-5');
+    button.textContent = 'Read less';
+  } else {
+    abstract.classList.add('line-clamp-5');
+    button.textContent = 'Read more';
+  }
+}
