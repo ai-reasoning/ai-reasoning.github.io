@@ -94,22 +94,24 @@
         Program <span class="text-[#007BFF]">Outline</span>
       </h1>
       <p class="mb-4">Here's the program outline with details on each of the events happening.</p>
-
       <ul class="list-disc list-inside space-y-2">
-        <li><span class="font-semibold">08:30</span> - AI Reasoning Day Opening</li>
-        <li><span class="font-semibold">08:40 - 09:40</span> - Keynote 1: Sumit Gulwani, <span
-            class="text-gray-600">Distinguished Scientist at Microsoft</span></li>
-        <li><span class="font-semibold">09:50 - 10:50</span> - Keynote 2: Vanja Josifovski, <span
-            class="text-gray-600">CEO & Co-founder of Kumo AI</span></li>
-        <li><span class="font-semibold">11:00 - 12:00</span> - Keynote 3: TBD <span
-            class="text-gray-600"></span>
-        </li>
-        <!-- <li><span class="font-semibold">11:00 - 12:00</span> - Keynote 3: Anoop Deoras, <span
-          class="text-gray-600">Director, Applied Science, Amazon</span>
-        </li> -->
-        <li><span class="font-semibold">12:00 - 13:00</span> - Lunch</li>
-        <li><span class="font-semibold">13:00 - 15:00</span> - Invited Talks</li>
-        <li><span class="font-semibold">15:30</span> - AI Reasoning Day Closing</li>
+        <li><span class="font-semibold">08:00 - 08:05</span> - AI Reasoning Day Opening</li>
+        <li><span class="font-semibold">08:05 - 09:05</span> - Keynote 1: Sumit Gulwani, <span class="text-gray-600">Distinguished Scientist at Microsoft</span></li>
+        <li><span class="font-semibold">09:05 - 10:05</span> - Keynote 2: Vanja Josifovski, <span class="text-gray-600">CEO & Co-founder of Kumo AI</span></li>
+        <li><span class="font-semibold">10:15 - 13:00</span> - Break (coffee break, keynote address and lunch)</li>
+        <li><span class="font-semibold">13:00 - 14:00</span> - Keynote 3 - <span class="text-gray-600">Tentative</span></li>
+        <li><span class="font-semibold">14:00 - 15:00</span> - Invited Talks 1-2</li>
+        <ul class="ml-6 list-disc list-inside space-y-1">
+          <li><span class="font-semibold">Talk:</span> Empowering LLMs: How Graph Reasoning Drives Generalized Thinking<br><span class="text-gray-600">Speaker: Jia Li</span></li>
+          <li><span class="font-semibold">Talk:</span> Open World Graph Learning via Uncertainty-Aware Symbolic Reasoning<br><span class="text-gray-600">Speaker: GUAN, Weijie</span></li>
+        </ul>
+        <li><span class="font-semibold">15:00 - 16:00</span> - Invited Talks 3-4</li>
+        <ul class="ml-6 list-disc list-inside space-y-1">
+          <li><span class="font-semibold">Talk:</span> Next-Gen Code Development with Collaborative AI Agents<br><span class="text-gray-600">Speakers: Garg, Shweta & Behrooz Omidvar-Tehrani</span></li>
+          <li><span class="font-semibold">Talk:</span> Understanding Hierarchical Data with Large Language Models: RAG, Structural Reasoning, and Future Directions<br><span class="text-gray-600">Speakers: Zhuohang JIANG, Xu YUAN, Pangjing WU</span></li>
+        </ul>
+        <li><span class="font-semibold">16:05</span> - AI Reasoning Day Closing</li>
+        <li><span class="font-semibold">16:30</span> - AI Reasoning Day ends</li>
       </ul>
     </div>
   </section>
@@ -268,9 +270,9 @@
       <!-- Speaker 3 -->
       <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 lg:w-[400px]">
         <div class="flex justify-start mb-4">
-          <img src="/assets/placeholder.png" alt="Shweta Garg"
+          <img src="/assets/sweta_garg.png" alt="Shweta Garg"
             class="w-20 h-20 rounded-full object-cover ring-2 ring-[#007BFF] mr-2">
-          <img src="/assets/placeholder.png" alt="Behrooz Omidvar"
+          <img src="/assets/behrooz_omidvar_tehrani.jpg" alt="Behrooz Omidvar"
             class="w-20 h-20 rounded-full object-cover ring-2 ring-[#007BFF]">
         </div>
         <div class="space-y-2">
@@ -278,14 +280,19 @@
             Garg, Shweta & Behrooz Omidvar-Tehrani<br><span class="text-gray-400">Amazon</span>
           </h3>
           <h2 class="text-base font-semibold text-black leading-snug">
-            <span class="text-[#007BFF]">Talk:</span> Next-Gen Code Development with Collaborative AI Agents
+            <span class="text-[#007BFF]">Talk:</span> AI Teammates for the Modern Developer: Building Collaborative
+            Coding Agents
           </h2>
-          <p class="text-sm text-gray-700 italic">Abstract to be announced</p>
-          <div class="text-sm mt-2 space-y-1">
-            <a href="https://www.linkedin.com/in/shwetagargiitb/" class="text-[#007BFF] underline">Shweta Garg</a><br>
-            <a href="https://www.linkedin.com/in/behroozomidvar/" class="text-[#007BFF] underline">Behrooz
-              Omidvar-Tehrani</a>
-          </div>
+          <p class="text-sm text-gray-700 mt-2 line-clamp-5" id="abstract-shweta">
+            Large Language Models (LLMs) and AI coding agents are fundamentally changing how software is built—assisting
+            with tasks like generation, testing, documentation, and complex reasoning. In this talk, we’ll explore how
+            LLMs can be harnessed across the software development lifecycle, and share practical techniques that unlock
+            their full potential, including prompt engineering, agentic planning, iterative refinement, test-time
+            scaling, and fine-tuning. We’ll also highlight how these approaches enable the creation of collaborative AI
+            agents that act as intelligent teammates—accelerating development, improving code quality, and transforming
+            how developers work. </p>
+          <button onclick="toggleAbstract(this, 'abstract-shweta')" class="text-[#007BFF] text-sm font-medium mt-1">Read
+            more</button>
         </div>
       </div>
 
